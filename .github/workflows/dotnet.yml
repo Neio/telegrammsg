@@ -43,7 +43,7 @@ jobs:
         path: code-coverage-results.md
 
     - name: Publish
-      run:  dotnet publish Src -c release -r win-x64 --self-contained true -p:PublishSingleFile=true -o release — nologo
+      run:  dotnet publish Src -c release -r win-x64 --self-contained true -p:PublishSingleFile=true -o release
     - name: Upload Build Artifact
       uses: actions/upload-artifact@v2
       with:
