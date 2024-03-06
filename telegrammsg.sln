@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "telegrammsg", "telegrammsg.csproj", "{EEB6C775-7165-467A-8D28-CECE0ADF0ADE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "telegrammsg", "src\telegrammsg.csproj", "{EEB6C775-7165-467A-8D28-CECE0ADF0ADE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "Tests\Tests.csproj", "{C67D788A-CC3A-489E-B3C1-EC095AC51BE7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{EEB6C775-7165-467A-8D28-CECE0ADF0ADE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EEB6C775-7165-467A-8D28-CECE0ADF0ADE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EEB6C775-7165-467A-8D28-CECE0ADF0ADE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C67D788A-CC3A-489E-B3C1-EC095AC51BE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C67D788A-CC3A-489E-B3C1-EC095AC51BE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C67D788A-CC3A-489E-B3C1-EC095AC51BE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C67D788A-CC3A-489E-B3C1-EC095AC51BE7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
