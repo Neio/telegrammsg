@@ -24,7 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\src\telegrammsg.csproj" />
+    <ProjectReference Include="..\Src\telegrammsg.csproj" />
   </ItemGroup>
 
 </Project>
